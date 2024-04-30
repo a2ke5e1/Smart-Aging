@@ -4,11 +4,12 @@ It has been assumed that a geriatric person is living alone in an apartment. Mor
 
 
 # Building the project
-In order to build the project, you will need three things: 
+In order to build the project, you will need following: 
 
-1. Backend Server - Build with Django
-1. MQTT Server - It allow us to communicate data in realtime between the server and the app. 
-1. App - Build with Kotlin and Jetpack Compose
+1. Backend Server - Build with Django.
+1. MQTT Server - It allow us to communicate data in realtime.between the server and the app. 
+1. App - Build with Kotlin and Jetpack Compose.
+1. Sensor Devices - Require for actual tracking the motions.
 
 
 ## Running the server 
@@ -49,4 +50,13 @@ private const val BASE_URL = "http://192.168.1.9:8000/"
 private const val MQTT_BROKER_HOST = "192.168.1.9"
 ```
 
+## Configuring your arduino
+You will need to change wifi ssid and password as well as the 
+server url to match your server URL. 
 
+Change these variables accordingly: 
+```c
+const char* ssid = "<wifi_name>";
+const char* password = "<wifi_password>";
+String URL = "http://192.168.1.9:8000/api/motion/";
+```
