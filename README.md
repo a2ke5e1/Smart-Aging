@@ -5,7 +5,7 @@ It has been assumed that a geriatric person is living alone in an apartment. Mor
 ## Demo
 [![Demo](https://img.youtube.com/vi/W3peQtuGI2U/1.jpg)](https://www.youtube.com/watch?v=W3peQtuGI2U)
 
-If you can't watch the [Demo](https://youtu.be/W3peQtuGI2U) video.
+[Demo](https://youtu.be/W3peQtuGI2U) video.
 
 
 # Building the project
