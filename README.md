@@ -2,6 +2,11 @@
 
 It has been assumed that a geriatric person is living alone in an apartment. Moreover, the room plan within the apartment is known beforehand. The problem in a single sentence is to build a low-cost solution for identifying the daily activities of the person in real time. The first challenge is to prepare a kit for sensing the presence of the concerned person in a specific location within the flat. The necessary ambient sensors and the strategic locations within the apartment need to be identified and the sensed data need to be properly stored within a server for subsequent analysis. The second challenge is to analyze the sensed data through machine learning and deep learning techniques for activity detection. 
 
+## Demo
+[![Demo](https://img.youtube.com/vi/W3peQtuGI2U/1.jpg)](https://www.youtube.com/watch?v=W3peQtuGI2U)
+
+If you can't watch the [Demo](https://youtu.be/W3peQtuGI2U) video.
+
 
 # Building the project
 In order to build the project, you will need following: 
